@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Restaurant ordering</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <h1 class="header__title">Jimmy’s Diner</h1>
+                <p class="header__description">The best burgers and pizzas in town.</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <div class="main__inner">
+
+                <div class="item">
+                    <div class="item__img">🍕</div>
+                    <div class="item__main">
+                        <h4 class="item__main-title">Pizza</h4>
+                        <p class="item__main-ingredients">pepperoni,mushrom,mozarella</p>
+                        <p class="item__main-price">$14</p>
+                    </div>
+                    <div class="item__btn">+</div>
+                </div>
+
+                <div class="item">
+                    <div class="item__img">🍕</div>
+                    <div class="item__main">
+                        <h4 class="item__main-title">Pizza</h4>
+                        <p class="item__main-ingredients">pepperoni,mushrom,mozarella</p>
+                        <p class="item__main-price">$14</p>
+                    </div>
+                    <div class="item__btn">+</div>
+                </div>
+
+                <div class="item">
+                    <div class="item__img">🍕</div>
+                    <div class="item__main">
+                        <h4 class="item__main-title">Pizza</h4>
+                        <p class="item__main-ingredients">pepperoni,mushrom,mozarella</p>
+                        <p class="item__main-price">$14</p>
+                    </div>
+                    <div class="item__btn">+</div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <div class="order">
+        <div class="container">
+            <div class="order__inner">
+                <p class="order__title">Your order</p>
+                <div class="order__items">
+                    <div class="order__item row">
+                        <p class="order__item-name">Pizza</p>
+                        <p class="order__item-removal">remove</p>
+                        <p class="order__item-price">$14</p>
+                    </div>
+                    <div class="order__item row">
+                        <p class="order__item-name">Beer</p>
+                        <p class="order__item-removal">remove</p>
+                        <p class="order__item-price">$12</p>
+                    </div>
+                </div>
+                <div class="order__total row">
+                    <p class="order__item-name">Total price:</p>
+                    <p class="order__item-price">$26</p>
+                </div>
+                <button class="order__fulfiller">Complete order</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-form">
+        <div class="container card-inner">
+            <p class="card-form__title">Enter card details</p>
+            <form class="form">
+                <div class="inputs">
+                    <input type="text" class="input name" placeholder="Enter your name">
+                    <input type="text" class="input card-num" placeholder="Enter card number">
+                    <input type="text" class="input cvv" placeholder="Enter CVV">
+                </div>
+                <button type="submit" class="form-btn">Pay</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="final-output">
+        <div class="container">
+            <div class="final-output__inner">
+                Thanks, James! Your order is on its way!
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
