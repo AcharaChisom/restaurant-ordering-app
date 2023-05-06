@@ -26,9 +26,9 @@
 
     <main class="main">
         <div class="container">
-            <div class="main__inner">
+            <div class="main__inner" id="main__inner">
 
-                <div class="item">
+                <!-- <div class="item">
                     <div class="item__img">🍕</div>
                     <div class="item__main">
                         <h4 class="item__main-title">Pizza</h4>
@@ -36,27 +36,7 @@
                         <p class="item__main-price">$14</p>
                     </div>
                     <div class="item__btn">+</div>
-                </div>
-
-                <div class="item">
-                    <div class="item__img">🍕</div>
-                    <div class="item__main">
-                        <h4 class="item__main-title">Pizza</h4>
-                        <p class="item__main-ingredients">pepperoni,mushrom,mozarella</p>
-                        <p class="item__main-price">$14</p>
-                    </div>
-                    <div class="item__btn">+</div>
-                </div>
-
-                <div class="item">
-                    <div class="item__img">🍕</div>
-                    <div class="item__main">
-                        <h4 class="item__main-title">Pizza</h4>
-                        <p class="item__main-ingredients">pepperoni,mushrom,mozarella</p>
-                        <p class="item__main-price">$14</p>
-                    </div>
-                    <div class="item__btn">+</div>
-                </div>
+                </div> -->
 
             </div>
         </div>
@@ -64,37 +44,34 @@
 
     <div class="order">
         <div class="container">
-            <div class="order__inner">
-                <p class="order__title">Your order</p>
+            <div class="order__inner" id="order__inner" >
+                <!-- <p class="order__title">Your order</p>
                 <div class="order__items">
+
                     <div class="order__item row">
                         <p class="order__item-name">Pizza</p>
                         <p class="order__item-removal">remove</p>
                         <p class="order__item-price">$14</p>
                     </div>
-                    <div class="order__item row">
-                        <p class="order__item-name">Beer</p>
-                        <p class="order__item-removal">remove</p>
-                        <p class="order__item-price">$12</p>
-                    </div>
+
                 </div>
                 <div class="order__total row">
                     <p class="order__item-name">Total price:</p>
                     <p class="order__item-price">$26</p>
                 </div>
-                <button class="order__fulfiller">Complete order</button>
+                <button class="order__fulfiller">Complete order</button> -->
             </div>
         </div>
     </div>
 
-    <div class="card-form">
+    <div class="card-form" id="card-form">
         <div class="container card-inner">
             <p class="card-form__title">Enter card details</p>
-            <form class="form">
+            <form class="form" id="form">
                 <div class="inputs">
-                    <input type="text" class="input name" placeholder="Enter your name">
-                    <input type="text" class="input card-num" placeholder="Enter card number">
-                    <input type="text" class="input cvv" placeholder="Enter CVV">
+                    <input type="text" class="input name" placeholder="Enter your name" name="fname" required>
+                    <input type="text" class="input card-num" placeholder="Enter card number" name="number" required>
+                    <input type="text" class="input cvv" placeholder="Enter CVV" name="cvv" required>
                 </div>
                 <button type="submit" class="form-btn">Pay</button>
             </form>
@@ -103,11 +80,12 @@
 
     <div class="final-output">
         <div class="container">
-            <div class="final-output__inner">
-                Thanks, James! Your order is on its way!
+            <div class="final-output__inner" id="final-output__inner">
+                <!-- Thanks, James! Your order is on its way! -->
             </div>
         </div>
     </div>
 
+    <script src="./index.mjs" type="module"></script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-const menuArray = [
+export default [
     {
         name: "Pizza",
         ingredients: ["pepperoni", "mushrom", "mozarella"],
